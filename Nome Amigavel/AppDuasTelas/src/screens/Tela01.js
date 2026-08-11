@@ -9,6 +9,11 @@ export default function Tela01({ navigation }) {
         title="Ir para Tela 02"
         onPress={() => navigation.navigate('Tela02')}
       />
+      <br></br>
+      <Button
+        title="Ir para Tela 03"
+        onPress={() => navigation.navigate('Tela03')}
+      />
     </View>
   );
 }

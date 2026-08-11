@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Tela01 from './src/screens/Tela01';
 import Tela02 from './src/screens/Tela02';
+import Tela03 from './src/screens/Tela03'
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +21,11 @@ export default function App() {
           name="Tela02" 
           component={Tela02} 
           options={{ title: 'Segunda Tela' }}
+        />
+        <Stack.Screen 
+          name="Tela03" 
+          component={Tela03} 
+          options={{ title: 'Terceira Tela' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
