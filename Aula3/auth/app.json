@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Projeto-01-Etec",
-    "slug": "Projeto-01-Etec",
+    "name": "auth",
+    "slug": "auth",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
