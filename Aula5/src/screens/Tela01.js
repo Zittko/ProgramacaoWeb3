@@ -36,7 +36,6 @@ export default function Tela01({ navigation }) {
     >
       <View style={styles.card}>
         <View style={styles.headerContainer}>
-          <Text style={styles.titulo}>Acessar Perfil</Text>
         </View>
 
         <View style={styles.inputContainer}>
@@ -87,6 +86,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F7FAFC',
     padding: 24, // Margens externas confortáveis
+  },
+  card: {
+    width: '100%',
+    maxWidth: 400,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 16,
+    padding: 24,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 5, // Sombra para Android
   },
   headerContainer: {
     alignItems: 'center',
